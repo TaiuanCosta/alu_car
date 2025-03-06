@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contato.css">
+    <title>Contato</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Contato</h1>
+    </div>
+    <div class="content">
+        <h2 class="title">Análise de cadastro</h2>
+        <p class="descrition">
+            Preencha os campos abaixo e analisaremos seus dados.<br>
+            Se tudo estiver correto ligaremos para marcar uma visita sua à loja.
+        </p>
+        <form method="post" action="https://www.devmedia.com.br/codigos/formularios/aula09/">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <div class="form-group">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="nascimento">Data de Nascimento:</label>
+                    <input type="date" id="nascimento" name="nascimento" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>CNH</legend>
+                <div class="form-group">
+                    <label for="registro">Número de Registro:</label>
+                    <input type="text" id="registro" name="registro" required>
+                </div>
+                <div class="form-group">
+                    <label for="validade">Validade:</label>
+                    <input type="date" id="validade" name="validade" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Veículo</legend>
+                <div class="form-group">
+                    <label for="modelo">Modelo do Carro:</label>
+                    <select name="carro" required>
+                        <option value="">Escolha o modelo</option>
+                        <optgroup label="Volkswagen">
+                            <option value="gol">Gol</option>
+                            <option value="golf">Golf</option>
+                            <option value="celta">Celta</option>
+                            <option value="fox"></option>
+                        </optgroup>
+                        <optgroup label="Fiat">
+                            <option value="uno">Uno</option>
+                            <option value="palio">Palio</option>
+                            <option value="argos">Argos</option>
+                            <option value="bravo">Bravo</option>
+                        </optgroup>
+                        <optgroup label="Nissan">
+                            <option value="frontirt">Frontier</option>
+                            <option value="versa">Versa</option>
+                            <option value="skyline">Skyline</option>
+
+                        </optgroup>
+                    </select>
+                </div>
+            </fieldset>
+            <button type="submit">Enviar Cadastro</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
+    
+</body>
+</html>
