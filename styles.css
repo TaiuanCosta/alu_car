@@ -14,9 +14,10 @@ p { /* AluCar (primeiro na tela) */
 }
 
 .text-overlay { /*Texto que fica sobbre a imagen*/
+    background-color: #00000085;
+    padding: 50px 20px;
     position: absolute; /* Bota texto sobre a imagem */
     top: 7%; /* topo */
-    right: 30px; /* direita */
     text-align: right; /* Alinha com a direita */
     color: white;
 }
